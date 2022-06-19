@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'PT Mono', monospace;
+    user-select: none;
+}
+
+#main {
+    padding: 20px;
+    padding-top: 10em;
+}
+
+#container {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 20em;
+    height: auto;
+    border-radius: 5px;
+}
+
+#nav-bar {
+    height: 32px;
+}
+
+.cross-img {
+    display: block;
+    float: right;
+}
+
+.cross-img:hover {
+    background-image: url(../img/checkbox_cross-red.png);
+}
+
+.arrow-left:hover {
+    background-image: url(../img/arrow_left.png);
+}
+
+.home:hover {
+    background-image: url(../img/home-full.png);
+}
+
+
+#divisor {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    
+}
+
+#text-container {
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #container {
+        width: 30em;
+    }
+}
